@@ -20,11 +20,13 @@ header {
 	color: #fff;
     background-color: #2C465A;
     padding: 12px 40px;
+    box-sizing: border-box;
+    outline: 0;
+    cursor: pointer;
 } 
 
 .cart-button:hover { 
 	background: #2A3844;
-	cursor: pointer;
 }
 
 .cart-button:active { 
@@ -33,7 +35,7 @@ header {
 
 main {
 	margin: 0 auto;
-	width: 90%;
+	max-width: 90%;
 }
 
 .goods-list {
@@ -57,4 +59,34 @@ p {
 	position: relative;
     left: 100px;
     top: 2px;
+}
+
+.fas {
+	position: relative;
+    font-size: 14px;
+    left: 135px;
+    bottom: 20px;
+}
+
+.js-add-to-cart {
+	position: relative;
+	top: 10px;
+    left: 53px;
+    padding: 6px 10px;
+	border: none;
+	color: #fff;
+    background-color: #2A3844;
+    box-sizing: border-box;
+    outline: 0;
+	cursor: pointer;
+} 
+
+.js-add-to-cart:hover { 
+	background: #2C465A;
+}
+
+span {
+	position: relative;
+    right: 87px;
+    top: 10px;
 }

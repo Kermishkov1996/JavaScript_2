@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"new",
+				"newHeadCoords"
+			],
+			[
+				"P",
+				"params"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ti",
+				"ticTakToe"
+			],
+			[
+				"game",
+				"gameTableElement"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"row",
+				"rowNum"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"ge",
+				"generateBoard"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"pro",
+				"productName"
+			],
+			[
+				"card",
+				"cardNode"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"re",
+				"renderer"
+			],
+			[
+				"border",
+				"border-collapse\tproperty"
+			],
+			[
+				"get",
+				"getRandomNumberAsArray"
+			],
+			[
+				"s",
+				"startGame"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"co",
+				"comments"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"slide",
+				"slideIndex"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"sum",
+				"sumDealer"
+			],
+			[
+				"G",
+				"getSum"
+			],
+			[
+				"getS",
+				"getStatust"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"padding-",
+				"padding-left\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"su",
+				"super\tvertical-align"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"f",
+				"flex\tdisplay"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"l",
+				"left\tfloat"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"flex-",
+				"flex-end\tjustify-content"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"fle",
+				"flex-start\talign-items"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"border-",
+				"border-spacing\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"list-style",
+				"list-style-type\tproperty"
+			],
+			[
+				"site_",
+				"site_my.css"
+			],
+			[
+				"bor",
+				"border-right\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"php",
+				"phpinfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Add Channel"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Курс по JS_2/Lesson01/index.html",
+		"/D/Курс по JS_2/Lesson01/style.css",
+		"/D/Курс по JS_2/Lesson01/main.js",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Basket/index.html",
+		"/C/Users/Александр/Downloads/Lesson01/index.html",
+		"/C/Users/Александр/Downloads/Lesson01/main.js",
+		"/C/Users/Александр/Downloads/Lesson01/__MACOSX/example/._index.html",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/Game Snake.html",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_4/script.js",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/TicTacToe_ES6.html",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/script/status.js",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/style.css",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/script/board.js",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/script/main.js",
+		"/D/Курс по JS_1/js1 урок 8/ДЗ_8/script/game.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/src/Game.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/src/Main.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/dist/app.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/src/Board.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/style.css",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/tictaktoe-es6style/index.html",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Tic Tac Toe game/app.js",
+		"/C/Users/Александр/Desktop/index.html",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7 - копия/script/settings.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7 - копия/script/main.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7 - копия/script/game.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/main.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/board.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/food.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/snake.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/game.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/menu.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/score.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/index.html",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Game.js",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/settings.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Score.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/index.html",
+		"/D/Курс по JS_1/js1 урок 7/ДЗ_7/script/status.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Board.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Food.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Snake.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Menu.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/style.css",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Status.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/src/Settings.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/dist/app.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/snakeNew/gulpfile.js",
+		"/D/Курс по JS_1/js1 урок 7/решение ДЗ урок 7 курс js1/решение ДЗ урок 7 курс js1/snakeNew/instructions.md",
+		"/C/Users/Александр/Downloads/hw4/nav.css",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Carousel/script.js",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Basket/style.css",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Basket/app.js",
+		"/D/Курс по JS_1/js1 урок 6/решение дз урок 6 курс js1/решение дз урок 6 курс js1/basket/scripts/app.js",
+		"/D/Курс по JS_1/js1 урок 6/решение дз урок 6 курс js1/решение дз урок 6 курс js1/basket/index.html",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/style.css",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/index.html",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Tic Tac Toe game/style.css",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Tic Tac Toe game/TTTgame.html",
+		"/D/Курс по JS_1/js1 урок 6/примеры для урока 6 курс js1/примеры для урока 6 курс js1/3 tictaktoe (в дз)/app.js",
+		"/D/Курс по JS_1/js1 урок 6/примеры для урока 6 курс js1/примеры для урока 6 курс js1/3 tictaktoe (в дз)/style.css",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Carousel/carousel.html",
+		"/D/Курс по JS_1/js1 урок 6/ДЗ_6/Carousel/style.css",
+		"/D/JavaScript Example/Carousel/style.css",
+		"/D/JavaScript Example/Carousel/carousel.html",
+		"/D/Курс по JS_1/js1 урок 6/примеры для урока 6 курс js1/примеры для урока 6 курс js1/1 events/8 формы/3 focus/focus.html",
+		"/D/Курс по JS_1/js1 урок 6/примеры для урока 6 курс js1/примеры для урока 6 курс js1/1 events/8 формы/4 reset/reset.html",
+		"/D/Курс по JS_1/js1 урок 6/примеры для урока 6 курс js1/примеры для урока 6 курс js1/1 events/8 формы/2 change/change.html",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5+6/script.js",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5+6/position.js",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5+6/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5+6/chessboard.html",
+		"/D/Курс по JS_1/js1 урок 5/решение дз урок 5 курc js1/5-6/scripts/app.js",
+		"/D/Курс по JS_1/js1 урок 5/решение дз урок 5 курc js1/5-6/chess.html",
+		"/D/Курс по JS_1/js1 урок 5/решение дз урок 5 курc js1/5-6/scripts/positions.js",
+		"/D/Курс по JS_1/js1 урок 5/решение дз урок 5 курc js1/5-6/styles/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5/script.js",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_5/chessboard.html",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Modal_window/script.js",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_4/index.html",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/task_4/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Modal_window/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Modal_window/modal_window.html",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Validation/validation.html",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Validation/script.js",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/Validation/style.css",
+		"/D/Курс по JS_1/js1 урок 5/ДЗ_5/validation.html",
+		"/D/JavaScript Example/Walking/walking.html",
+		"/D/JavaScript Example/Walking/script/mover.js",
+		"/D/JavaScript Example/Walking/script/renderer.js",
+		"/D/JavaScript Example/Walking/script/player.js",
+		"/D/JavaScript Example/Walking/script/game.js",
+		"/D/JavaScript Example/Walking/style/style.css",
+		"/D/JavaScript Example/Walking/script/config.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/task_2.html",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/game.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/mover.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/renderer.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/player.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/config.js",
+		"/D/Курс по JS_1/js1 урок 4/ДЗ/walking.html",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/mover.js",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/player.js",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/config.js",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/renderer.js",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/game.js",
+		"/D/Курс по JS_1/js1 урок 4/примеры для урока 4 курс javascript1/примеры для урока 4 курс javascript1/11 бродилка (в дз)/walking.html",
+		"/D/JavaScript Example/Bulls and cows/Bulls_Cows.html",
+		"/D/JavaScript Example/Bulls and cows/BullsCows.js",
+		"/D/JavaScript Example/21_o4ko.html",
+		"/D/JavaScript Example/Russian rulet.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_2.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_6.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_5.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_7.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_4.html",
+		"/D/Курс по JS_1/js1 урок 3/ДЗ_3/task_3.html",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/Окончание рубля/6.js",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/Окончание рубля/task_6.html",
+		"/D/Курс по JS_1/js1 урок 2/task_6.html",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/task_6.html",
+		"/D/JavaScript Example/Carousel/script.js",
+		"/D/JavaScript Example/Carousel/car_ex.html",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/task_5.html",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/task_4.html",
+		"/D/Курс по JS_1/js1 урок 2/ДЗ_2/task_3.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Курс по HTML_CSS\\catalog\\Sobakov.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
