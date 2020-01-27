@@ -8,15 +8,14 @@ function makeGetRequest(url) {
         xhr = new window.ActiveXObject("Microsoft.XMLHTTP")
         }
 
-        xhr.onreadystatechange = function () {
+        xhr.onreadystatechange = () => {
             if (xhr.readyState === 4) {
-                resolve(xhr.responseText)
-            } else {
-                reject("Error")
+                const body = JSON.parse(xhr.responseText);
+                resolve(body);
             }
         };
     
-        xhr.open('GET', url, true);
+        xhr.open('GET', url);
         xhr.send();
     });
 }
