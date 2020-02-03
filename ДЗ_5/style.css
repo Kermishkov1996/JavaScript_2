@@ -24,10 +24,23 @@ form {
 	right: 50px;
 	top: -8px;
 	min-width: 400px;
-	min-height: 200px;
 	background-color: #f8f8f8;
 	border: 1px solid #f6f6f6;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.table {
+	width: 402px;
+	border-spacing: 0;
+}
+
+.table td {
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+}
+
+.table th {
+	padding: 10px;
 }
 
 .cart-button {
@@ -81,13 +94,6 @@ p {
     top: 2px;
 }
 
-.fas {
-	position: relative;
-    font-size: 14px;
-    left: 135px;
-    bottom: 20px;
-}
-
 .js-add-to-cart {
 	margin-top: 10px;
     margin-left: 18px;
@@ -102,10 +108,4 @@ p {
 
 .js-add-to-cart:hover { 
 	background: #2C465A;
-}
-
-span {
-	position: relative;
-    right: 87px;
-    top: 10px;
 }
