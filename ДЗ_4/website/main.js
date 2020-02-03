@@ -1,4 +1,5 @@
 const API_URL = "https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses";
+
 function makeGetRequest(url) {
     return new Promise((resolve, reject) => {
         let xhr;
@@ -10,10 +11,18 @@ function makeGetRequest(url) {
 
         xhr.onreadystatechange = () => {
             if (xhr.readyState === 4) {
+                if (xhr.status !== 200) {
+                    reject(xhr.responseText);
+                    return
+                }
                 const body = JSON.parse(xhr.responseText);
                 resolve(body);
             }
         };
+
+        xhr.onerror = function (err) {
+            reject(err);
+        }
     
         xhr.open('GET', url);
         xhr.send();
@@ -43,12 +52,16 @@ class GoodsList {
     constructor(container) {
         this.container = document.querySelector(container);
         this.goods = [];
+        this.filteredGoods = [];
     }
 
     initListeners() {}
-    findGood(id) {
-        return this.goods.find(good => good.id === id);
+
+    findGood(id) { //index
+        return this.goods[id];
     }
+
+    fetchGoods() {}
     /**
      * Метод считает стоимость всех товаров в корзине.
      * @returns {number}
@@ -63,8 +76,8 @@ class GoodsList {
 
     render() {
         let listHtml = '';
-        this.goods.forEach(good => {
-            const goodItem = new GoodsItem(good.id, good.product_name, good.price, good.img);
+        this.filteredGoods.forEach((good, index) => {
+            const goodItem = new GoodsItem(index, good.product_name, good.price, good.img);
             listHtml += goodItem.render();
         });
         this.container.innerHTML = listHtml;
@@ -73,6 +86,10 @@ class GoodsList {
 }
 
 class GoodsPage extends GoodsList {
+    addCartListeners(listeners) {
+        this.cartListeners = listeners;
+    }
+
     initListeners() {
         const buttons = [...this.container.querySelectorAll('.js-add-to-cart')];
         buttons.forEach(button => {
@@ -81,37 +98,75 @@ class GoodsPage extends GoodsList {
                 this.addToCart(parseInt(goodId, 10));
             })
         })
-    }
-    fetchGoods(callback) {
-        makeGetRequest(`${API_URL}/catalogData.json`, (goods) => {
-            this.goods = JSON.parse(goods);
-            callback();
+        const searchForm = document.querySelector('.goods-search');
+        const searchValue = searchForm.querySelector('.goods-search-value');
+        searchForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            let value = searchValue.value;
+            value = value.trim();
+            this.filterGoods(value);
         })
     }
-    addToCart(goodId) {
-        const good = this.findGood(goodId);
-        console.log(good);
+    async fetchGoods() {
+        try {
+            this.goods = await makeGetRequest(`${API_URL}/catalogData.json`);
+            this.filteredGoods = [...this.goods];
+        }
+        catch (err) {
+            console.error(`Ошибка: ${err}`);
+        }
+    }
+
+    filterGoods(value) {
+        const regexp = new RegExp(value, 'i');
+        this.filteredGoods = this.goods.filter((good) => {
+            return regexp.test(good.product_name);
+        });
+        this.render();
+    }
+
+    async addToCart(goodId) {
+        try {
+            const good = this.findGood(goodId);
+            await makeGetRequest(`${API_URL}/addToBasket.json`);
+            if (this.cartListeners) {
+                this.cartListeners.addToCart(good);
+            }
+        }
+        catch (e) {
+            console.error(`Ошибка: ${e}`);
+        }
     }
 }
 
 class Cart extends GoodsList {
+    initListeners() {
+        return {
+            addToCart: (good) => {
+                this.addToCart(good);
+            },
+        }
+    }
     removeFromCart(goodId) {
-        makeGetRequest(`${API_URL}/deleteFromBasket.json`, (goods) => {
-            this.goods = JSON.parse(goods);
-            callback();
-        })
+        
     }
     cleanCart() {
-        makeGetRequest(`${API_URL}/getBasket.json`, (goods) => {
-            this.goods = JSON.parse(goods);
-            callback();
-        })
+        
     }
     updateCartItem(goodId, goods) {
-        makeGetRequest(`${API_URL}/addToBasket.json`, (goods) => {
-            this.goods = JSON.parse(goods);
-            callback();
-        })
+        
+    }
+    addToCart(good) {
+        this.goods.push(good);
+        this.render();
+    }
+
+    render() {
+        let html = '';
+        this.goods.forEach(good => {
+            html += `<li>${good.product_name}</li>`
+        });
+        this.container.innerHTML = html;
     }
 }
 
@@ -129,7 +184,12 @@ class CartItem extends GoodsItem {
 }
 
 const list = new GoodsPage('.goods-list');
-list.fetchGoods(() => {
+const cart = new Cart('.cart-goods');
+const cartListeners = cart.initListeners();
+
+list.addCartListeners(cartListeners);
+list.fetchGoods().then(() => {
     list.render();
 });
+
 console.log(list.getTotalSum());
