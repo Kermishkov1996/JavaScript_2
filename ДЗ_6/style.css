@@ -11,11 +11,10 @@ header {
 
 form {
 	display: inline-block;
-	margin: 19px;
+	margin: 20px;
 }
 
 .cart {
-	margin-left: auto;
 	position: relative;
 }
 
@@ -108,4 +107,17 @@ p {
 
 .js-add-to-cart:hover { 
 	background: #2C465A;
+}
+
+.goods-not-found {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fade-enter, .fade-leave-to {
+	opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s;
 }
